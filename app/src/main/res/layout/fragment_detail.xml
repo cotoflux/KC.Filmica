@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              tools:context=".DetailActivity">
+
+
+    <TextView
+            android:id="@+id/labelTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Avengers:Endgame"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    <TextView
+            android:id="@+id/labelDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="Descripcion"
+            android:textStyle="italic"/>
+    <TextView
+            android:id="@+id/labelGeneres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Generos"
+            android:layout_marginTop="4dp"/>
+    <TextView
+            android:id="@+id/labelDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Fecha"
+            android:layout_marginTop="4dp"/>
+
+    <Button android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_add_watchlist"
+            android:layout_marginTop="4dp"/>
+
+
+</LinearLayout>
